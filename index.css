@@ -43,7 +43,7 @@ header img {
 }
 
 .skewedBG{
-    background-color: #ffffff;
+    background-color: #000000;
     background-position: center;
     width: 100%;
     height: 200px;
@@ -63,4 +63,39 @@ header img {
     right:0;
     transform-origin: top left;
     transform: skewY(-5deg);
+}
+
+.skewedBG h1 {
+    color: #ffffff;
+    position: absolute;
+    text-align: right;
+    margin: 0;
+    top: 2%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+}
+
+.skewedBG h2 {
+    color: #ffffff;
+    position: absolute;
+    text-align: right;
+    margin: 0;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+}
+.skewedBG h3 {
+    color: #ffffff;
+    position: absolute;
+    text-align: right;
+    margin: 0;
+    top: 35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
 }
